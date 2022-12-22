@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-
+print("Hello World")
 img=cv.imread('a.jpg',0)
 img1=cv.imread('b.jpg')
 cv.imshow('image',img)
